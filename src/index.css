@@ -1,0 +1,171 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1e1e1e;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.calculator
+{
+  position: relative;
+  width: 870px;
+  height: 1108px;
+  background: #23242A;
+  border-radius: 35px;
+}
+
+.containerOperations button, select
+{
+  position: absolute;
+  background-color: #5A5D6C;
+  border-radius: 15px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  color: #dee1ef;
+}
+
+.calculator nav
+{
+  position: absolute;
+  width: 803.01px;
+  height: 45px;
+  left: 34px;
+  top: 32px;
+}
+
+.data
+{
+  background-color: #dee1ef;
+  position: absolute;
+  width: 710px;
+  height: 146.54px;
+  left: 80px;
+  top: 110.23px;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.graph
+{
+  width: 274px;
+  height: 94px;
+  left: 516px;
+  top: 280px;
+}
+
+.operations
+{
+  width: 418px;
+  height: 94px;
+  left: 82px;
+  top: 280px;
+}
+
+.containerButtons
+{
+  position: absolute;
+  width: 711px;
+  height: 649px;
+  left: 79px;
+  top: 397px;
+}
+
+.lineOne
+{
+  width: 710px;
+  height: 94px;
+  left: 80px;
+  top: 397px;
+  margin: 12px;
+}
+
+.lineTwo
+{
+  width: 708px;
+  height: 94px;
+  top: 508px;
+  left: 82px;
+  margin: 12px;
+}
+
+.lineThree
+{
+  width: 710px;
+  height: 94px;
+  left: 80px;
+  top: 619px;
+  margin: 12px;
+}
+
+.lineFour
+{
+  width: 710px;
+  height: 94px;
+  left: 80px;
+  top: 730px;
+  margin: 12px;
+}
+
+.lineFive
+{
+  width: 710px;
+  height: 94px;
+  left: 80px;
+  top: 730px;
+  margin: 12px;
+}
+
+.lineSix
+{
+  width: 710px;
+  height: 94px;
+  left: 80px;
+  top: 730px;
+  margin: 12px;
+}
+
+.containerButtons button
+{
+  border-radius: 15px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 57.8px;
+  text-align: center;
+  color: #dee1ef;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.function
+{
+  background-color: #3D3F4A;
+  width: 129.27px;
+  height: 94px;
+  left: 514.55px;
+  top: 952px;
+  border-radius: 33.0892px;
+}
+
+.number
+{
+  background-color: #5A5D6C;
+  width: 129.7px;
+  height: 94px;
+  left: 79px;
+  top: 952px;
+}
