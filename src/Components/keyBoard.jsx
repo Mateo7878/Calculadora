@@ -1,9 +1,16 @@
 import { Component } from 'react';
-import KeyFunctions from './keyBoardFunctions';
-import {Routes, Route} from 'react-router-dom';
+import Display from './display.jsx'
+
 
 export default class KeyBoard extends Component
 {
+    state = 
+    {
+        total: null,
+        next: null,
+        operator: null
+    }
+
     render()
     {
             return(
@@ -12,12 +19,11 @@ export default class KeyBoard extends Component
                     <nav>
                         <a>Calculator</a>
                     </nav>
-                <input type='number' className='data'></input>
+                <div className='data'>
+                    <Display value = {this.state.next || this.state.total || "0"}/>
+                </div>
                 <div className='containerOperations'>
                 <button className='operations'>
-                    <Routes>
-                            <Route path='KeyFunctions' element={ <KeyFunctions/> }/>
-                    </Routes>
                     Functions
                 </button>
                     <button className='graph'>Show graph</button>
